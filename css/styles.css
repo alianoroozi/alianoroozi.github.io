@@ -1,0 +1,120 @@
+body {
+  background: #333333 url('../images/background-1.png');
+  margin: 0px;
+  font: 400 13px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+  color: #444444
+}
+
+.header {
+  background: #333333 url('../images/background-2.png');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  width: 864px;
+  padding: 0px 43px;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  margin: 0 0 0 -475px;
+}
+
+.main-menu {
+  display: flex;
+}
+
+#logo {
+  font-family: 'Bree Serif', Georgia, serif;
+  font-size: 24px;
+}
+
+.main-menu li {
+  display: flex ;
+  margin-left: 27px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Bree Serif', Georgia, serif;
+}
+
+.main-menu li a {
+  text-decoration: none;
+}
+.container {
+  background: url('./../images/background-2.png');
+  width : 950px;
+  margin: 0px auto 300px auto;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+#about {
+  padding-top: 55px;
+  margin: 0 43px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 400;
+  font-family: 'Bree Serif', Georgia, serif;
+}
+
+
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.top-social {
+  display: flex;
+}
+
+.top-social li {
+  display: flex ;
+  margin-left: 27px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Bree Serif', Georgia, serif;
+  padding-top: 62px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+hr {
+  height: 5px;
+  background-color: rgb(55, 58, 58);
+  border: 0px;
+}
+
+.content1 img {
+  widows: 257px;
+  height: 312px;
+  float: left;
+  margin-right: 40px;
+ // border: 5px solid #222222;
+}
+
+h2 {
+  font: 400 18px/22px 'Bree Serif', Georgia, serif;
+    color: #6a6969;
+}
+
+.top-divider {
+  margin-top: 100 px;
+}
+
+#research {
+  margin: 0px 43px;
+  padding-top: 55px;
+}
+
+ul {
+    padding-left: 20px;
+}​
