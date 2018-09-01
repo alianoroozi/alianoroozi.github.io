@@ -36,8 +36,9 @@ body {
   font-family: 'Bree Serif', Georgia, serif;
 }
 
-.main-menu li a {
+a {
   text-decoration: none;
+  color:#3d67ac;
 }
 .container {
   background: url('./../images/background-2.png');
@@ -47,27 +48,11 @@ body {
   padding-bottom: 100px;
 }
 
-#about {
-  padding-top: 55px;
-  margin: 0 43px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-}
-
 h1 {
   font-size: 34px;
   font-weight: 400;
   font-family: 'Bree Serif', Georgia, serif;
 }
-
-
-
-.about-me {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 
 .top-social {
   display: flex;
@@ -75,11 +60,11 @@ h1 {
 
 .top-social li {
   display: flex ;
-  margin-left: 27px;
+  margin-left: 15px;
   font-size: 18px;
   font-weight: 400;
   font-family: 'Bree Serif', Georgia, serif;
-  padding-top: 62px;
+  //
 }
 
 .social-icon {
@@ -91,6 +76,7 @@ hr {
   height: 5px;
   background-color: rgb(55, 58, 58);
   border: 0px;
+  margin-bottom: 10px;  
 }
 
 .content1 img {
@@ -103,18 +89,32 @@ hr {
 
 h2 {
   font: 400 18px/22px 'Bree Serif', Georgia, serif;
-    color: #6a6969;
+  color: #6a6969;
 }
 
 .top-divider {
   margin-top: 100 px;
 }
 
-#research {
-  margin: 0px 43px;
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#about {
   padding-top: 55px;
+  margin: 0 43px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+#research, #tools, #teaching {
+  margin: 0px 43px;
+  padding-top: 20px;
 }
 
 ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }​
