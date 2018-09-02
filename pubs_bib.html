@@ -24,7 +24,12 @@
             It aims to guarantee secure flow of information in the program and ensure that sensitive information does not leak 
             to attackers. In this paper, the problem of verifying weak probabilistic noninterference by leveraging formal methods, 
             in particular algorithmic verification, is discussed. Behavior of multi-threaded programs is modeled using probabilistic 
-            Kripke structures and formalize weak probabilistic noninterference in terms of 
+            Kripke structures and formalize weak probabilistic noninterference in terms of these structures. Then, a verification 
+            algorithm is proposed to check weak probabilistic noninterference. The algorithm uses an abstraction technique to compute 
+            quotient space of the program with respect to an equivalence relation called weak probabilistic bisimulation and does 
+            a simple check to decide whether the security property is satisfied or not. The progress made is demonstrated by a 
+            real-world case study. It is expected that the proposed approach constitutes a significant step towards more widely 
+            applicable secure information flow analysis.
            }
 }
 </pre>
