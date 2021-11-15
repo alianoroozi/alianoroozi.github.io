@@ -1,3 +1,25 @@
+@InProceedings{salehi2021quantifying,
+  author={Khayyam Salehi and Ali A. Noroozi and Sepehr Amir-Mohammadian},
+  title={Quantifying Information Leakage of Probabilistic Programs Using the PRISM Model Checker},
+  booktitle={Emerging Security Information, Systems and Technologies},
+  year={2021},
+  publisher={IARIA},
+  pages={47--52},
+  isbn={978-1-61208-919-5},
+  abstract={
+              Information leakage is the flow of information from secret inputs of a program to its public outputs. One effective approach 
+              to identify information leakage and potentially preserve the confidentiality of a program is to quantify the flow of information 
+              that is associated with the execution of that program, and check whether this value meets predefined thresholds. 
+              For example, the program may be considered insecure, if this quantified value is higher than the threshold. 
+              In this paper, an automated method is proposed to compute the information leakage of probabilistic programs. 
+              We use Markov chains to model these programs, and reduce the problem of measuring the information leakage to the problem of
+              computing the joint probabilities of secrets and public outputs. The proposed method traverses the Markov chain 
+              to find the secret inputs and the public outputs and subsequently, calculate the joint probabilities. 
+              The method has been implemented into a tool called PRISM-Leak, which uses the PRISM model checker to build 
+              the Markov chain of input programs. The applicability of the proposed method is highlighted by analyzing 
+              a probabilistic protocol and quantifying its leakage.}
+}
+
 @InProceedings{noroozi2019secure,
 	author={Ali A. Noroozi and Khayyam Salehi and Jaber Karimpour and Ayaz Isazadeh},
 	editor={Garg, Deepak and Kumar, N. V. Narendra and Shyamasundar, Rudrapatna K.},
